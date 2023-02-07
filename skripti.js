@@ -9,4 +9,5 @@ function sutitZinu(){
     console.log("Poga darbojas gan jau");
     console.log("Ziņa ir: "+zina.value );
 
+    logs.innerHTML =logs.innerHTML +"</br>"+ zina.value;
 }
